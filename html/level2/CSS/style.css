@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+}
+
+.body .leftnav {
+  background-color: #336699;
+  width: 15%;
+}
+
+.body .mt {
+  width: 85%;
+}
+
+.left {
+  text-align: center;
+}
+
+.leftnav h1 {
+  color: white;
+  padding-left: 20%;
+  text-align: left;
+}
+
+.leftnav .nav {
+  color: white;
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20%;
+}
+
+.nav li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body .head {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+h2 {
+  color: #00FFFF;
+}
+
+h3 {
+  color: #00FFFF;
+  margin-left: 20px;
+}
+
+.mt h4 {
+  color: #00FFFF;
+  width: 100%;
+}
+
+p {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.team {
+  margin: 25px;
+}
+
+.welcome {
+  margin-left: 10%;
+  margin-bottom: 25px;
+}
+
+#About {
+  display: flex;
+  margin: 20px;
+}
+
+#About .temp {
+  width: 250px;
+  height: 350px;
+}
+
+.About {
+  margin: 10px;
+  padding-left: 30px;
+}
+
+button {
+  background-color: #0099FF;
+  width: 120px;
+  height: 40px;
+}
+
+.Gallery {
+  margin-left: 50px;
+}
+
+.img_One {
+  display: inline-flex;
+}
+
+.One {
+  display: inline-flex;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.Second {
+  margin-left: 50px;
+}
+
+.img_Second {
+  display: inline-flex;
+}
+
+.Second_img {
+  margin: 5px;
+  width: 330px;
+  height: 200px;
+}
+
+.Third {
+  margin-left: 50px;
+}
+
+.img_Third {
+  display: inline-flex;
+}
+
+.Third_img {
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+.Contact{
+  margin-left: 50px;
+}
+
+.Contact_Us{
+  display:inline-flex;
+}
+
+/* .Contact_Us .from{
+  display:flex;
+  flex-direction: column;
+} */
