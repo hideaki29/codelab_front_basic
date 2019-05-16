@@ -69,13 +69,13 @@ p {
 }
 
 .welcome {
-  margin-left: 10%;
+  margin-left: 50px;
   margin-bottom: 25px;
 }
 
 #About {
   display: flex;
-  margin: 20px;
+  margin: 50px;
 }
 
 #About .temp {
@@ -138,14 +138,40 @@ button {
 }
 
 .Contact{
+  width:100%;
   margin-left: 50px;
+  margin-bottom:40px;
 }
 
 .Contact_Us{
   display:inline-flex;
 }
 
-/* .Contact_Us .from{
+.Contact_Us .from{
   display:flex;
   flex-direction: column;
-} */
+}
+
+.Contact_Us .Us{
+  margin-left:30px;
+}
+
+.Us_p{
+margin-bottom:20px;
+}
+
+tr td input{
+  width:100%;
+  margin-bottom:15px;
+
+}
+
+.from button{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.footer{
+  margin-left:40px;
+}
+
