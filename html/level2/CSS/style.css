@@ -95,36 +95,38 @@ button {
 }
 
 .Gallery {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .img_One {
   display: inline-flex;
 }
 
-.One {
+.mt .Gallery .One {
   display: inline-flex;
-  width: 200px;
+  width: 20%;
   height: 200px;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 0;
 }
 
 .Second {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .img_Second {
   display: inline-flex;
 }
 
-.Second_img {
-  margin: 5px;
-  width: 330px;
+.Second .Second_img {
+  margin-left: 1%;
+  margin-right: 0;
+  width: 33%;
   height: 200px;
 }
 
 .Third {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .img_Third {
@@ -132,46 +134,45 @@ button {
 }
 
 .Third_img {
-  margin: 5px;
-  width: 250px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 25%;
   height: 250px;
 }
 
-.Contact{
-  width:100%;
+.Contact {
+  width: 100%;
   margin-left: 50px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
-.Contact_Us{
-  display:inline-flex;
+.Contact_Us {
+  display: inline-flex;
 }
 
-.Contact_Us .from{
-  display:flex;
+.Contact_Us .from {
+  display: flex;
   flex-direction: column;
 }
 
-.Contact_Us .Us{
-  margin-left:30px;
+.Contact_Us .Us {
+  margin-left: 30px;
 }
 
-.Us_p{
-margin-bottom:20px;
+.Us_p {
+  margin-bottom: 20px;
 }
 
-tr td input{
-  width:100%;
-  margin-bottom:15px;
-
+tr td input {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.from button{
-  margin-top:30px;
-  margin-bottom:30px;
+.from button {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.footer{
-  margin-left:40px;
+.footer {
+  margin-left: 30px;
 }
-
