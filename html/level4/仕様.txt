@@ -1,0 +1,27 @@
+# positionを使用したコーディング課題
+
+## 仕様
+①コンテンツ幅1200px。(content-width.png参照)
+②テキスト、フォント、背景色は指定がなければ、任意の値を設定。※見本画像と異なっていても良い。
+③ページ下部(ヨガ、ジムの円形アイコン、フッターの背景色)のグラデーション部分は以下のコードを使用。
+    background: linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+    background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+    background: -moz-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+    background: -o-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+④コースの3つアイコンとフッターのContactUsのアイコンは「fontawesome」というサービスを利用すること。
+参考サイト：https://saruwakakun.com/html-css/basic/font-awesome
+
+使用するアイコンは以下
+
+コース
+・fas fa-running
+・fas fa-swimmer
+・fas fa-dumbbell
+
+フッター
+・fas fa-map-marker
+・fas fa-phone
+・fas fa-envelope
+
+⑤円形アイコンをホバーしたときにアイコンが上下に揺れること。(icon_anime.gifを参照)
+参考サイト：https://www.esz.co.jp/blog/101.html
