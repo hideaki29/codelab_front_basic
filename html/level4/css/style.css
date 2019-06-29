@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+}
+
+#head {
+  background-image: url(../images/slider_img.jpg);
+  height: 500px;
+  width: 1400px;
+}
+
+.head {
+  display: inline-flex;
+  margin-left: 200px;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  left: -40px;
+}
+
+h2 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.head_img p {
+  color: white;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.head nav .nav {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  margin-left: 250px;
+}
+
+.nav li {
+  list-style: none;
+  color: white;
+}
+
+section {
+  width: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section .yoga_main {
+  display: inline-flex;
+  width: 1200px;
+  height: 600px;
+}
+
+.yoga_main {
+  background-color: white;
+}
+
+.main {
+  width: 900px;
+}
+
+.yoga {
+  display: inline-flex;
+  width: 900px;
+  height: 300px;
+}
+
+.yoga_img {
+  width: 550px;
+  height: 400px;
+  margin-top: -100px;
+}
+
+.yoga_p {
+  margin: 40px;
+}
+
+h3 {
+  margin: 15px 5px;
+}
+
+.Details {
+  color: palevioletred;
+}
+
+.main .new {
+  width: 900px;
+}
+
+.new h4 {
+  margin-top: 0;
+}
+
+.main .new .woman {
+  flex-wrap: wrap;
+}
+
+.img img {
+  position: relative;
+  top: -50px;
+  width: 300px;
+  height: 600px;
+}
+
+.team {
+  background-color: palevioletred;
+  color: white;
+}
+
+#course {
+  background-image: url(../images/feature_bg.png);
+  width: 1400px;
+  height: 650px;
+  margin-left: -100px;
+}
+
+.mein {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h4 {
+  color: white;
+}
+
+.up {
+  text-align: center;
+  justify-items: center;
+  color: white;
+  margin: 40px;
+}
+
+.up_course {
+  display: inline-flex;
+}
+
+#program {
+  text-align: center;
+  height: 800px;
+}
+
+.program_up {
+  display: inline-flex;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.program_down {
+  display: inline-flex;
+  height: 300px;
+}
+
+.program_img1 {
+  margin: 10px;
+  background-image: url(../images/program_img1.jpg);
+}
+
+.program_img2 {
+  margin: 10px;
+  background-image: url(../images/program_img2.jpg);
+}
+
+.program_img3 {
+  margin: 10px;
+  background-image: url(../images/program_img3.jpg);
+}
+
+.program_img4 {
+  margin: 10px;
+  background-image: url(../images/program_img4.jpg);
+}
+
+.program_img5 {
+  margin: 10px;
+  background-image: url(../images/program_img5.jpg);
+}
+
+.program_img6 {
+  margin: 10px;
+  background-image: url(../images/program_img6.jpg);
+}
+
+.dummy {
+  color: white;
+  background-color: #d83f87;
+  width: 300px;
+  margin-top: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section #img {
+  background-image: url(../images/coaches_bg.jpg);
+  width: 1400px;
+  height: 800px;
+  margin-left: -100px;
+  position: relative;
+}
+
+.foot_yoga_img {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pink1 {
+  background: -webkit-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  width: 125px;
+  height: 125px;
+  margin-top: 25px;
+  border-radius: 95%;
+  position: absolute;
+  top: 20px;
+  left: 135px;
+}
+
+#img p {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+.img_yoga1 {
+  position: absolute;
+  top: 50px;
+  left: 270px;
+}
+
+.img_yoga2 {
+  position: absolute;
+  top: 30px;
+  left: 460px;
+}
+
+.img_yoga3 {
+  position: absolute;
+  top: 100px;
+  left: 750px;
+}
+
+.img_yoga4 {
+  position: absolute;
+  border-radius: 95%;
+  top: 100px;
+  left: 880px;
+}
+
+.pink2 {
+  background: -webkit-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  width: 125px;
+  height: 125px;
+  margin-top: 25px;
+  border-radius: 95%;
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+}
+
+.img_yoga5 {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+.img_yoga6 {
+  position: absolute;
+  top: 280px;
+  left: 300px;
+}
+
+.img_yoga7 {
+  position: absolute;
+  top: 320px;
+  left: 520px;
+}
+
+.zimu {
+  background: -webkit-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 95%;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 230px;
+  left: 720px;
+}
+
+.zimu p {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.img_yoga8 {
+  position: absolute;
+  top: 400px;
+  left: 920px;
+}
+
+.img_yoga9 {
+  position: absolute;
+  top: 300px;
+  left: 1050px;
+}
+
+.img_yoga10 {
+  position: absolute;
+  top: 400px;
+  left: 120px;
+}
+
+.img_img:hover {
+  animation: hurueru .5s infinite;
+}
+
+@keyframes hurueru {
+  0% { transform:translateY(0) }
+  25% { transform:translateY(-5px) }
+  50% { transform:translateY(0) }
+  75% { transform:translateY(5px) }
+  100% { transform:translateY(0) }
+  }
+
+
+#foot {
+  width: 1400px;
+}
+
+.foot {
+  display: flex;
+  margin-top: auto;
+}
+
+.GYM {
+  margin-left: 400px;
+  position: absolute;
+  bottom: 150px;
+  z-index: 1;
+}
+
+.img_foot {
+  position: absolute;
+  top: 10px;
+  left: 75px;
+  z-index: 2;
+  width: 450px;
+  height: 350px;
+}
+
+.GYM h5 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.foot_img {
+  width: 700px;
+  position: relative;
+}
+
+.foot_nav {
+  display: flex;
+  width: 700px;
+  background: -webkit-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+}
+
+h5 {
+  color: white;
+}
+
+.links_nav {
+  width: 200px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.footer_nav {
+  margin-left: -40px;
+}
+
+.footer_nav li {
+  list-style: none;
+  color: white;
+}
+
+.foot_Us {
+  width: 400px;
+}
+
+.Contact_Us {
+  text-align: left;
+}
+
+.foot_Us h5 {
+  margin-left: 40px;
+}
+
+.Contact_Us li {
+  list-style: none;
+  color: white;
+}
+
+.Contact_Us li i {
+  margin-right: 10px;
+}
+
+#foot .foot_down {
+  background: linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  background: -webkit-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  background: -moz-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  background: -o-linear-gradient(left, #8165a6, #d83f87) repeat scroll 0 0;
+  height: 150px;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.gray {
+  color: grey;
+}
+
+.white {
+  color: white;
+}
