@@ -596,6 +596,9 @@ form {
     padding-bottom: 30px;
     font-size: 20px;
   }
+  #hover_up {
+    display: none;
+  }
   .our {
     height: 450px;
   }
