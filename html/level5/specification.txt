@@ -1,0 +1,14 @@
+# 画面サイズ1500pxと375pxで表示したとき、見本画像と同じレイアウトにしてください(1500px→responsive-pc.png,375px→responsive-sp.png)
+
+# OUR PORTFOLIOの画像をマウスホバーしたとき、hover.pngと同じ状態になるようにしてください。
+
+# ページ下部のOUR LOCATIONの右側はフォームタグを使い、部品を囲むこと
+
+# fontawesomeで使用するアイコン
+
+twitter
+facebook
+linkedin
+vimeo
+behance
+heart

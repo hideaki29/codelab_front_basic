@@ -1,0 +1,724 @@
+* {
+  box-sizing: border-box;
+}
+
+#head {
+  background-image: url(../images/homebg.jpg);
+  width: 100%;
+  color: white;
+  height: 450px;
+}
+
+#humberger {
+  margin-top: 15px;
+  margin-left: 50px;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#humberger div {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 24px;
+  background-color: white;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+#humberger div:nth-of-type(1) {
+  top: 0;
+}
+
+#humberger div:nth-of-type(2) {
+  top: 10px;
+}
+
+#humberger div:nth-of-type(3) {
+  bottom: 0;
+}
+
+.head h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.head hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.head p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.head_sp {
+  display: none;
+}
+
+#head .BOX {
+  border: solid 2px;
+  color: white;
+  width: 30px;
+  height: 50px;
+  margin-left: 49%;
+  margin-top: 85px;
+  border-radius: 40%;
+}
+
+.INTRODUCTION {
+  text-align: center;
+  height: 400px;
+}
+
+.INTRODUCTION h2 {
+  margin-top: 75px;
+  font-size: 35px;
+}
+
+.INTRODUCTION hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.INTRODUCTION_sp {
+  display: none;
+}
+
+.INTRODUCTION p {
+  font-size: 20px;
+}
+
+.pure {
+  background-image: url(../images/creativitybg.jpg);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  color: white;
+}
+
+.pure_box {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.pure .pure_box h2 {
+  display: flex;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 250px;
+  height: 75px;
+  padding-top: 20px;
+  padding-left: 40px;
+  border: solid 2px white;
+}
+
+.our {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.our h3 {
+  margin-top: 75px;
+  font-size: 30px;
+}
+
+.our hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.our .nav {
+  display: flex;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+
+.nav li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+#hover_up {
+  position: absolute;
+}
+
+#hover_up .hover_up {
+  width: 370px;
+  height: 420px;
+  position: relative;
+  top: -10px;
+  left: 125px;
+  opacity: 1;
+}
+
+.hover_up:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  opacity: 0;
+}
+
+.hover_up p {
+  color: white;
+  text-align: center;
+  padding-top: 190px;
+}
+
+#img .img_up {
+  text-align: center;
+}
+
+#img .img_down {
+  text-align: center;
+}
+
+#img img {
+  margin: 5px;
+}
+
+.team {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: solid black 1px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.we {
+  background-image: url(../images/heretohelpbg.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.we_box {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.we_box h4 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 20px;
+  width: 275px;
+  height: 75px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  border: solid 2px white;
+}
+
+.clients {
+  text-align: center;
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+.clients .up {
+  margin-top: 0;
+  height: 150px;
+}
+
+.clients .up h5 {
+  margin-top: 0;
+  padding-top: 75px;
+  font-size: 30px;
+}
+
+.clients .up hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.clients .down {
+  margin-top: 50px;
+}
+
+.clients .down img {
+  margin-top: 25px;
+  filter: grayscale(100%);
+}
+
+.about {
+  text-align: center;
+  height: 100px;
+  font-size: 30px;
+}
+
+.about hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.us {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.us_sp {
+  display: none;
+}
+
+.us p {
+  text-align: center;
+}
+
+.are {
+  display: flex;
+  margin-left: 200px;
+}
+
+.are_box {
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+.are_box1 {
+  text-align: center;
+  border: solid black 2px;
+  width: 270px;
+  font-size: 30px;
+}
+
+.are_box1 h5 {
+  margin-top: 80px;
+}
+
+.are_box1 hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.are_box1 h6 {
+  border: solid black 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.git {
+  background-image: url(../images/videobg.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.git h6 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 20px;
+  width: 275px;
+  height: 75px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  border: solid 2px white;
+}
+
+.git .git_box {
+  display: flex;
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.why {
+  text-align: center;
+}
+
+.why h6 {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.why hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.why p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.apple {
+  display: flex;
+  margin-left: 150px;
+  height: 400px;
+}
+
+.apple p {
+  font-size: 10px;
+}
+
+.apple .app {
+  text-align: center;
+  width: 350px;
+}
+
+.apple .des {
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.apple .pixel {
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+#box {
+  display: flex;
+  margin-left: 45%;
+}
+
+#box .left {
+  background-color: gray;
+  border: solid black 1px;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+#box .right {
+  background-color: gray;
+  border: solid black 1px;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+.now {
+  background-image: url(../images/quotebg.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.now .now_box h6 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 20px;
+  width: 275px;
+  height: 75px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  border: solid 2px white;
+}
+
+.now .now_box {
+  display: flex;
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.touch {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.touch h6 {
+  font-size: 30px;
+}
+
+.touch hr {
+  width: 150px;
+  border: solid 2px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.touch p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#foot {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+#foot .foot {
+  background-color: slategrey;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.foot h6 {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.loc li {
+  list-style: none;
+}
+
+.mark {
+  display: flex;
+}
+
+.mark li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+#foot .send {
+  background-color: grey;
+  display: flex;
+  width: 70%;
+}
+
+.send .text {
+  background-color: gray;
+  border: none;
+  border-bottom: solid black 1px;
+  margin-top: 50px;
+  margin-left: 75px;
+  width: 300px;
+  height: 100px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SEND {
+  background-color: gray;
+  border: solid black 1px;
+  padding: 15px;
+  width: 100px;
+  height: 50px;
+  margin-top: 75px;
+  margin-left: 100px;
+}
+
+/* ここからはモバイル端末に見る際のCSSを記載すること
+---------------------------------------------------- */
+
+@media screen and (max-width:375px) {
+  #head {
+    padding-top: 100px;
+    height: 750px;
+  }
+  .head h1 {
+    padding-top: 50px;
+  }
+  .head hr {
+    width: 100px;
+    border: solid 1px;
+    height: 2px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .head_pc {
+    display: none;
+  }
+  .head .head_sp {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .INTRODUCTION_pc {
+    display: none;
+  }
+  .INTRODUCTION h2 {
+    font-size: 20px;
+  }
+  .INTRODUCTION hr {
+    width: 100px;
+    border: solid 1px;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .INTRODUCTION .INTRODUCTION_sp {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .INTRODUCTION .INTRODUCTION_sp p {
+    font-size: 12px;
+  }
+  .pure_box {
+    height: 500px;
+  }
+  .pure_box h2 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  .our {
+    height: 450px;
+  }
+  .our h3 {
+    font-size: 20px;
+  }
+  .our hr {
+    width: 100px;
+    border: solid 1px;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .our .nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  .our .nav li {
+    width: 100px;
+    padding: 20px;
+    font-size: 10px;
+  }
+  .our .nav li:nth-child(3) {
+    padding-left: 0;
+    padding-right: 0;
+    width: 110px;
+  }
+  .our .nav li:nth-child(4) {
+    padding-left: 15px;
+    text-align: left;
+  }
+  .our .nav li:last-child {
+    margin-left: 70px;
+  }
+  .we_box h4 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .clients {
+    height: 750px;
+  }
+  .clients .up h5 {
+    font-size: 20px;
+  }
+  .clients .up hr {
+    width: 100px;
+    border: solid 1px;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .clients .down {
+    width: 375px;
+  }
+  .clients .down img {
+    margin: 0;
+    width: 250px;
+  }
+  .us_pc {
+    display: none;
+  }
+  .us_sp {
+    display: flex;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .are {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .are .are_box {
+    width: 125px;
+    height: 166px;
+    margin-left: 30px;
+  }
+  .are .are_box1 {
+    width: 125px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .are .are_box1 h5 {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .are .are_box1 hr {
+    width: 75px;
+    border: solid 1px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .are .are_box1 h6 {
+    width: 100px;
+    border: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  .git {
+    margin-top: 50px;
+    background-position: -650px 0px;
+  }
+  .why {
+    display: none;
+  }
+  .apple {
+    display: none;
+  }
+  #box {
+    display: none;
+  }
+  .now {
+    display: none;
+  }
+  .touch {
+    display: none;
+  }
+  #foot {
+    display: none;
+  }
+}
