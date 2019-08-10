@@ -144,9 +144,6 @@ if (num10 >= 10) {
   (console.log('変数num10より小さいです'))
 }
 
-
-
-
 // switch問題
 // 以下のif文をswitch文に書き換えてください。
 // またbreak命令を使い、コンソールを複数出力しないようにしてください。
@@ -169,15 +166,15 @@ switch (course) {
 
   case '中級':
     console.log('中級コース');
-    brack;
+    break;
 
   case '上級':
     console.log('上級コース');
-    brack;
+    break;
 
   case '未受講':
     console.log('未受講です');
-    brack;
+    break;
 }
 
 // while問題
@@ -195,7 +192,9 @@ var hoge2 = 5;
 do {
   console.log(hoge2);
   hoge2--;
-} while (hoge2 = 2);
+} while (hoge2 == 2);
+
+
 
 
 // for問題
