@@ -173,13 +173,11 @@ console.log(multipliedCalc(9,5));
 var human = {
   name: 'Jim',
   weight: 180,
+  message:function(){
+    console.log('私の名前は'+this.name+'です');
+  }
 };
-function message(a,b){
-console.log(a+human.name+b)
-}
-message('私の名前は','です');
-
-
+human.message();
 // 関数問題(ローカル変数、グローバル変数)
 // 以下の変数fruitの出力結果が異なる理由を記載してください。
 // 理由：console.log(fruit)については最初に宣言している変数について表示している、console.log(getFruitName());については関数にて宣言している変数が表示される。
