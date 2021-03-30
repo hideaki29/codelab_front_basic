@@ -1,0 +1,213 @@
+課題内容
+レスポンシブWEBデザインに対応したサイトのコーディングをしてもらいます。
+画面サイズ1500pxと375pxで表示したとき、以下の完成画像と同じになるようにコーディングをしてください。(下記リンクから画像を表示できます。)
+(画像を見比べながらコーディングすると思うので、画像をクリックし、ローカルに保存することをおすすめします)
+
+画面サイズ1500pxの時
+
+画面サイズ375pxの時
+
+画面サイズ毎のブレイクポイントについて
+https://nuconeco.net/responsive-ui-breakpoints/
+仕様・レビューポイント
+課題共通の仕様・レビューポイントはこちら
+
+SOME OF OUR WORKの画像をマウスホバーしたとき、hover.pngと同じ状態になるようにしてください。(下記画像①参照)。
+画像①：SOME OF OUR WORKの画像をマウスホバーしたとき
+
+ページ下部のOUR LOCATIONの右側はフォームタグを使い、部品を囲むこと
+以下のアイコンは「fontawesome」というサービスを利用すること。
+※参考サイトはこちら。
+※使用するアイコンは以下
+・twitter
+・facebook
+・linkedin
+・vimeo
+・behance
+ページに以下のアニメーションをjs(jQuery)で実装すること。
+【アニメーション全体の仕様】
+・アニメーションはanimationプロパティを使用してcssで記述する。
+・アニメーションの実行タイミング（ロード時、スクロール時等）、アニメーション同士の実行間隔はjQueryで記述する。
+※アニメーション同士の実行間隔（アニメーションが開始されてから〇秒後に次のアニメーションを実行する）は次のサイトを参考にする。setTimeout
+【当演習でのざっくりとしたアニメーション実装の流れ】
+・cssにアニメーションを記述したclassを作成する。
+・jQueryでアニメーション実行のタイミングを記述し、タイミングになった時にcssで記述したおいたアニメーションのclassを該当のHTML要素に追加する。
+
+アニメーション１
+【アニメーション実行のタイミング】
+・ページが読み込まれたとき。
+【アニメーションの仕様】
+・アニメーションは「タイトル」「下線」「文章」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+アニメーション２
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+※可視領域をに入った時にアニメーションを実行する実装は次のサイトを参考にする。可視領域をに入った時にアニメーションを実行する
+【アニメーションの仕様】
+・アニメーションは「タイトル」「下線」「文章」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+
+アニメーション３
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+
+アニメーション４
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+アニメーション３と同様の実装。
+
+
+アニメーション５
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・アニメーションは「タイトル」「ロゴ」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。transform
+・ロゴ部分のアニメーションは次のプロパティを使用して実装する。opacity
+
+
+アニメーション６
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・アニメーションは「タイトル」「文章」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。opacity
+
+
+アニメーション７
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・アニメーションは「タイトル」「下線」「文章」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+
+アニメーション８
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+アニメーション３と同様の実装。
+
+
+アニメーション９
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・アニメーションは「タイトル」「下線」「文章」の順で実行する。
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+
+アニメーション１０
+【アニメーション実行のタイミング】
+・スクロールし、ユーザーの可視領域に入った時。
+【アニメーションの仕様】
+・当アニメーションは次のプロパティを使用して実装する。transform
+
+
+完成までの目安時間
+25時間以内･･･素晴らしい!!
+25~30時間･･･合格です!!基礎は身についてます。
+30時間以上･･･基礎がまだ身についていないので、ドリルに戻って復習しましょう。
+素材
+画像
+こちらをクリックするとダウンロードが開始されます。
+zipファイルのパスワードは「2367」です。
+※ダウンロード後、フォルダ名は「img」に修正してください。
+
+テキスト
+■SOME OF OUR WORKの画像をマウスホバーしたとき
+MOBILE UI
+
+Google Mail
+
+■ヘッダー
+WE’VE GOT THE TALENT
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa.
+
+■コンテンツ
+INTRODUCTION
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+Pure Creativity
+
+SOME OF OUR WORK
+
+ALL
+BRANDING
+WEB DESIGN
+MOBILE UI
+ILLUSTRATIONS
+
+Show me more
+
+We’re here to help.
+
+OUR CLIENTS
+
+ABOUT US
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+WE ARE
+
+HIRING
+
+Apply
+
+WHY CHOOSE US
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+APP DESIGN
+
+RESPONSIVE LAYOUT
+
+PIXEL PERFECT DESIGN
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+ilabore et dolore.
+
+Get a quote now.
+
+GET IN TOUCH
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris.
+
+■ フッター
+OUR LOCATION
+
+174 Mimosa ST.
+NW
+
+Casablanca, MA
+20370
+
+(212) 123 456 7
+
+Samir
+Timezguida
+
+name
+
+Email
+
+Message
+
+SEND
+
+2014 © Samir Timezguida.All Rights Reserved.
+
+Free Template by FreeTemplates.pro

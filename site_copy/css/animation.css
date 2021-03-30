@@ -1,0 +1,503 @@
+@charset "utf-8";
+.anime1_01 {
+    -webkit-animation: anime1-1 1s ease-in-out;
+    animation: anime1-1 1s ease-in-out;
+}
+
+@keyframes anime1-1 {
+    0% {
+        transform: scale(0) translate(0, -150px);
+    }
+    50% {
+        transform: scaleX(2) translate(0, 50px);
+    }
+    70% {
+        transform: scaleY(.5) translate(0, -50px);
+    }
+    90% {
+        transform: scaleX(1.5) translate(0, 25px);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+.anime1_02 {
+    -webkit-animation: anime1-2 1s ease-in-out;
+    animation: anime1-2 1s ease-in-out;
+}
+
+@keyframes anime1-2 {
+    0% {
+        transform: scale(0) translate(0, -150px);
+    }
+    50% {
+        transform: scaleX(2) translate(0, 50px);
+    }
+    70% {
+        transform: scaleY(.5) translate(0, -50px);
+    }
+    90% {
+        transform: scaleX(1.5) translate(0, 25px);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+.anime1_03 {
+    -webkit-animation: anime1-3 1s ease-in-out;
+    animation: anime1-3 1s ease-in-out;
+}
+
+@keyframes anime1-3 {
+    0% {
+        transform: scale(0) translate(0, -150px);
+    }
+    50% {
+        transform: scaleX(2) translate(0, 50px);
+    }
+    70% {
+        transform: scaleY(.5) translate(0, -50px);
+    }
+    90% {
+        transform: scaleX(1.5) translate(0, 25px);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+.active {
+    /* 3. メニューを定位置へ戻す */
+    transform: translate(0);
+    opacity: 1;
+}
+
+.anime2_01 {
+    -webkit-animation: anime2-1 1s ease-in-out;
+    animation: anime2-1 1s ease-in-out;
+}
+
+@keyframes anime2-1 {
+    0% {
+        transform: rotateX(0);
+    }
+    20% {
+        transform: rotateX(72deg);
+    }
+    40% {
+        transform: rotateX(144deg);
+    }
+    60% {
+        transform: rotateX(216deg);
+    }
+    80% {
+        transform: rotateX(288deg);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+.anime2_02 {
+    -webkit-animation: anime2-2 1.5s ease-in-out;
+    animation: anime2-2 1.5s ease-out;
+}
+
+@keyframes anime2-2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.anime2_03 {
+    -webkit-animation: anime2-3 1s infinite;
+    animation: anime2-3 1s ease-in-out;
+}
+
+@keyframes anime2-3 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime3 {
+    animation: anime3 1s;
+}
+
+@keyframes anime3 {
+    0% {
+        opacity: 0;
+        transform: rotateX(180deg);
+    }
+    50% {
+        opacity: 0.5;
+        transform: rotateX(270deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+}
+
+.anime3_1 {
+    animation: anime3-1 2s;
+}
+
+@keyframes anime3-1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime4 {
+    animation: anime4 2s;
+}
+
+@keyframes anime4 {
+    0% {
+        opacity: 0;
+        transform: rotateX(180deg);
+    }
+    50% {
+        opacity: 0.5;
+        transform: rotateX(270deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+}
+
+.anime4_1 {
+    animation: anime4-1 2s;
+}
+
+@keyframes anime4-1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime5_1 {
+    -webkit-animation: anime5 1s ease-in-out;
+    animation: anime5 1s ease-in-out;
+}
+
+@keyframes anime5 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime5_2:nth-child(1) {
+    -webkit-animation: anime5-1 4s ease-in-out;
+    animation: anime5-1 4s ease-in-out;
+}
+
+@keyframes anime5-1 {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+}
+
+.anime5_2:nth-child(2) {
+    -webkit-animation: anime5-2 4s ease-in-out;
+    animation: anime5-2 4s ease-in-out;
+}
+
+@keyframes anime5-2 {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+}
+
+.anime5_2:nth-child(3) {
+    -webkit-animation: anime5-3 4s ease-in-out;
+    animation: anime5-3 4s ease-in-out;
+}
+
+@keyframes anime5-3 {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+}
+
+.anime5_2:nth-child(4) {
+    -webkit-animation: anime5-4 4s ease-in-out;
+    animation: anime5-4 4s ease-in-out;
+}
+
+@keyframes anime5-4 {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+}
+
+.anime5_2:nth-child(5) {
+    -webkit-animation: anime5-5 4s ease-in-out;
+    animation: anime5-5 4s ease-in-out;
+}
+
+@keyframes anime5-5 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime6_1 {
+    -webkit-animation: anime6-1 0.9s ease-in-out;
+    animation: anime6-1 0.9s ease-in-out;
+}
+
+@keyframes anime6-1 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime6_2 {
+    -webkit-animation: anime6-2 2s ease-in-out;
+    animation: anime6-2 2s ease-in-out;
+}
+
+@keyframes anime6-2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime7_1 {
+    -webkit-animation: anime7-1 0.8s ease-in-out;
+    animation: anime7-1 0.8s ease-in-out;
+}
+
+@keyframes anime7-1 {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(15px);
+    }
+    40% {
+        transform: translateX(-15px);
+    }
+    60% {
+        transform: translateX(15px);
+    }
+    80% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.anime7_2 {
+    -webkit-animation: anime7-2 1s ease-in-out;
+    animation: anime7-2 1s ease-in-out;
+}
+
+@keyframes anime7-2 {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(10px);
+    }
+    40% {
+        transform: translateX(-10px)
+    }
+    60% {
+        transform: translateX(10px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+.anime7_3 {
+    -webkit-animation: anime7-3 1.2s ease-in-out;
+    animation: anime7-3 1.2s ease-in-out;
+}
+
+@keyframes anime7-3 {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(15px);
+    }
+    40% {
+        transform: translateX(-15px);
+    }
+    60% {
+        transform: translateX(15px);
+    }
+    80% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.anime8 {
+    -webkit-animation: anime8 1s ease-in-out;
+    animation: anime8 1s ease-in-out;
+}
+
+@keyframes anime8 {
+    0% {
+        opacity: 0;
+        transform: rotateX(180deg);
+    }
+    50% {
+        opacity: 0.5;
+        transform: rotateX(270deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+}
+
+.anime9_1 {
+    -webkit-animation: anime9-1 1s ease-in-out;
+    animation: anime9-1 1s ease-in-out;
+}
+
+@keyframes anime9-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime9_2 {
+    -webkit-animation: anime9-2 1.2s ease-in-out;
+    animation: anime9-2 1.2s ease-in-out;
+}
+
+@keyframes anime9-2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime9_3 {
+    -webkit-animation: anime9-3 1.4s ease-in-out;
+    animation: anime9-3 1.4s ease-in-out;
+}
+
+@keyframes anime9-3 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anime_left {
+    -webkit-animation: anime-left 3s ease-in-out;
+    animation: anime-left 3s ease-in-out;
+}
+
+@keyframes anime-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime_right {
+    -webkit-animation: anime-right 3s ease-in-out;
+    animation: anime-right 3s ease-in-out;
+}
+
+@keyframes anime-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+    }
+}

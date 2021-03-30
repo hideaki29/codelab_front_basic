@@ -1,178 +1,396 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>サイト模写</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link href="style_pc.css" rel="stylesheet" type="text/css" media="(min-width: 376px) and (max-width: 1500px)">
-  <link href="style_mobile.css" rel="stylesheet" type="text/css" media="(min-width: 100px) and (max-width: 375px)">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-  <script src="./commen.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Casablanca</title>
+    <!--META-->
+    <meta name="viewport" content="width-device-width-initial-scale=1.0">
+    <!--Javascript-->
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="JS/animation.js"></script>
+
+    <!--FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:900,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/mobile.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" typr="text/css">
+    <link rel="stylesheet" href="css/animation.css" type="text/css">
+
+
 </head>
 
 <body>
-  <header id="head">
-    <div class="head_menu">
-      <span class="line-top"></span>
-      <span class="line-middle"></span>
-      <span class="line-bottm"></span>
-    </div>
-    <div class="head_h">
-      <h1 class="white">WE’VE GOT THE TALENT</h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-      <p>Aenean commodo ligula eget dolor. Aenean massa.</p>
-      <img src="./img-4/mouse.png" alt="icon">
-    </div>
-  </header>
-  <section id="main">
-    <div class="introduction">
-      <h2 class="black">INTRODUCTION</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
-      <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
-      <p>ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    </div>
-
-    <div class="pure">
-      <a href="#" class="button_white">Pure Creativity</a>
-    </div>
-    <div class="some">
-      <h2 class="black">SOME OF OUR WORK</h2>
-      <hr>
-      <nav>
-        <ul class="some_nav">
-          <li>ALL</li>
-          <li>BRANDING</li>
-          <li>WEB DESIGN</li>
-          <li>MOBILE UI</li>
-          <li>ILLUSTRATIONS</li>
-        </ul>
-        <div class="img_nav">
-          <img class="icon" src="./img-4/portfolios/app/w1.jpg" alt="icon">
-          <img class="icon" src="./img-4/portfolios/app/w2.jpg" alt="icon">
-          <img class="icon" src="./img-4/portfolios/card/w3.jpg" alt="icon">
-          <img class="icon" src="./img-4/portfolios/card/w4.jpg" alt="icon">
-          <img class="icon" src="./img-4/portfolios/icon/w5.jpg" alt="icon">
-          <img class="icon" src="./img-4/portfolios/logo/w6.jpg" alt="icon">
+    <div id="menu">
+        <div>
         </div>
-      </nav>
-      <a href="#" class="button_black">Show me more</a>
+        <div>
+        </div>
+        <div>
+        </div>
     </div>
-    <div class="help">
-      <a href="#" class="button_white">We’re here to help.</a>
-    </div>
-    <div class="our">
-      <h2 class="black">OUR CLIENTS</h2>
-      <hr>
-      <div class="our_img">
-        <img class="our_icon" src="./img-4/c1.png" alt="icon">
-        <img class="our_icon" src="./img-4/c2.png" alt="icon">
-        <img class="our_icon" src="./img-4/c3.png" alt="icon">
-        <img class="our_icon" src="./img-4/c4.png" alt="icon">
-        <img class="our_icon" src="./img-4/c5.png" alt="icon">
-      </div>
-    </div>
-    <div class="about">
-      <h2 class="black">ABOUT US</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-      <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
-      <p>ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    </div>
-    <div class="about_img">
-      <ul class="about_us">
-        <li><img src="./img-4/t1.jpg" alt="icon"></li>
-        <li><img src="./img-4/t2.jpg" alt="icon"></li>
-        <li><img src="./img-4/t3.jpg" alt="icon"></li>
-        <li>
-          <div class="apply">
-            <h2 class="black">
-              <p>WE ARE</p>
-              <p>HIRING</p>
-            </h2>
-            <hr>
-            <a href="#" class="button_black">Apply</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="youtube">
-      <img class="load" src="./img-4/play.png" alt="youtube">
-    </div>
-    <div class="why">
-      <h2>WHY CHOOSE US</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-      <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
-      <p>ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    </div>
-    <div class="why_img">
-      <ul class="why_as">
-        <li><img src="./img-4/s1.png" alt="icon">
-          <h2 class="black">APP DESIGN</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-          <p>elit, sed do eiusmod tempor ilabore et dolore.</p>
-        </li>
-        <li><img src="./img-4/s2.png" alt="icon">
-          <h2 class="black">RESPONSIVE LAYOUT</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-          <p>elit, sed do eiusmod tempor ilabore et dolore</p>
-        </li>
-        <li><img src="./img-4/s3.png" alt="icon">
-          <h2 class="black">PIXEL PERFECT DESIGN</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adip</p>
-          <p>elit, sed do eiusmod tempor ilabore et dolore.</p>
-        </li>
-      </ul>
-    </div>
-    <div class="get">
-      <button>Get a quote now.</button>
-    </div>
-    <div class="touch">
-      <h2 class="black">GET IN TOUCH</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-      <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
-      <p>ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    </div>
-  </section>
-  <footer id="foot">
-    <div class="foot_right">
-      <ul class="foot_our">
-        <li>OUR LOCATION</li>
-        <li>174 Mimosa ST. NW</li>
-        <li>Casablanca, MA 20370</li>
-        <li>(212) 123 456 7</li>
-        <li>Samir Timezguida</li>
-      </ul>
-      <ul class="foot_mark">
-        <li><i class="fab fa-twitter 3x"></i></li>
-        <li><i class="fab fa-facebook-f 3x"></i></li>
-        <li><i class="fab fa-linkedin-in 3x"></i></li>
-        <li><i class="fab fa-vimeo-v 3x"></i></li>
-        <li><i class="fab fa-behance"></i></li>
-      </ul>
-    </div>
-    <div class="send">
-      <form action="" method="post">
-        <input class="text" type="text" value="name">
-        <input class="text" type="text" value="email">
-        <input class="text" type="text" value="message">
-        <button class="SEND" type="submit">SEND</button>
-      </form>
-    </div>
-    <div class="under">
-      <img src="./img-4/logo.png" alt="foot">
-      <p class="under_p">2014 © <span>Samir Timezguida.</span>All Rights Reserved.</p>
-      <p class="under_p">Free Template by <span>FreeTemplates.pro</span></p>
-    </div>
-  </footer>
+    <header id="head" class="img_back">
+        <div class="head">
+            <h1 class="white anime1_01">WE’VEGOTTHETALENT</h1>
+            <hr class="white_ber anime1_02">
+            <p class="p_white anime1_03">Loremipsumdolorsitamet,consectetuer adipiscingelit.
+                <br>Aeneancommodoligulaegetdolor.Aeneanmassa.
+            </p>
+            <div class="icon_box">
+                <img class="icon" src="images/mouse.png" alt="icon">
+            </div>
+        </div>
+    </header>
+    <section id="contents">
+        <div class="INTRODUCTION">
+            <h1 class="black">INTRODUCTION
+            </h1>
+            <hr class="black_ber">
+            <p class="p_black">Lorem ipsumdolorsitamet,consectetur adipisicingelit,seddo
+                <br>
+                <span class="p_line2">eiusmod
+                    temporincididuntutlaboreet
+                    doloremagnaaliqua.Ut</span>
+                <br>enimadminimveniam, quisnostrudexercitation ullamcolaboris.
+            </p>
+        </div>
+        <div class="pure">
+            <div class="boxs">
+                <a href="#" class="white_box">
+                    PureCreativity
+                </a></div>
+        </div>
+        <div class="work">
+            <h1 class="black">
+                SOME OF OUR WORK
+            </h1>
+            <hr class="black_ber">
+            <div id="line">
+                <ul class="box">
+                    <li>
+                        ALL
+                    </li>
+                    <li>
+                        BRANDING
+                    </li>
+                    <li>
+                        WEB DESIGN
+                    </li>
+                    <li>
+                        MOBILE
+                    </li>
+                    <li>
+                        ILLUSTRATIONS
+                    </li>
+                </ul>
+            </div>
+            <div class="img_work">
+
+                <div class="images_box">
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/app/w1.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/app/w2.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/card/w3.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/card/w4.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/icon/w5.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+
+                    <div class="img_block mobile_box">
+                        <div class="ALL">
+                            <img class="img_box" src="images/portfolios/logo/w6.jpg" alt="">
+                        </div>
+                        <div class="img_mobile">
+                            <h2>
+                                MOBILE UI
+                            </h2>
+                            <p>
+                                Google Mail
+                            </p>
+                            <hr class="orangeline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show">
+                <div class="boxs">
+                    <a href="#" class="black_box">
+                    Show
+                    me
+                    more
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="here">
+            <div class="boxs">
+                <a href="#" class="white_box">
+                        We
+                        're
+                        here
+                        to
+                        help.</a>
+            </div>
+        </div>
+        <div class="our">
+            <h1 class="black">
+                OUR CLIENTS
+            </h1>
+            <hr class="black_ber">
+            <div class="our_img">
+                <img src="images/c1.png" alt="">
+                <img src="images/c2.png" alt="">
+                <img src="images/c3.png" alt="">
+                <img src="images/c4.png" alt="">
+                <img src="images/c5.png" alt="">
+            </div>
+        </div>
+
+        <div class="ABOUT">
+            <h1 class="black">
+                ABOUT US
+            </h1>
+            <hr class="black_ber">
+            <p class="p_black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
+                <br> ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+        </div>
+
+
+        <div class="US">
+            <img class="us_img" src="images/t1.jpg" alt="">
+            <img class="us_img" src="images/t2.jpg" alt="">
+            <img class="us_img" src="images/t3.jpg" alt="">
+            <div class="us_box">
+                <h1 class="us_p">
+                    WEARE
+                    <br> HIRING
+                </h1>
+                <hr class="black_ber">
+                <p class="black_box_us">
+                    Apply
+                </p>
+            </div>
+        </div>
+        <div class="video">
+            <div class="boxs">
+                <img class="video_img" src="images/bx_loader.gif" alt="">
+            </div>
+        </div>
+
+        <div class="why">
+            <h1 class="black">
+                WHY CHOOSE US
+            </h1>
+            <hr class="black_ber">
+            <p class="p_black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
+                <br> ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            <div class="img_why">
+                <div class="why_imgs">
+                    <div class="why_img why_iphone">
+                        <img src="images/s1.png" alt="">
+                    </div>
+                    <h2 class="h_black">
+                        APP DESIGN
+                    </h2>
+                    <p class="black_p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <br> elit, sed do eiusmod tempor ilabore et dolore.
+                    </p>
+                </div>
+
+                <div class="why_img why_ipad">
+                    <img src="images/s2.png" alt="">
+                    <h2 class="h_black">
+                        RESPONSIVE LAYOUT
+                    </h2>
+                    <p class="black_p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <br> elit, sed do eiusmod tempor ilabore et dolore.
+                    </p>
+                </div>
+
+                <div class="why_img why_pc">
+                    <img src="images/s3.png" alt="">
+                    <h2 class="h_black">
+                        PIXEL PERFECT DESIGN
+                    </h2>
+                    <p class="black_p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <br> elit, sed do eiusmod tempor ilabore et dolore.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="get">
+            <div class="boxs">
+                <a href="#" class="white_box">Get a quote now.</a>
+            </div>
+        </div>
+        <div class="TOUCH">
+            <h1 class="black">
+                GET IN TOUCH
+            </h1>
+            <hr class="black_ber">
+            <p class="p_black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
+                <br> ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+        </div>
+    </section>
+    <footer id="foot">
+        <div class="cont">
+            <div class="left">
+                <h2>
+                    OUR LOCATION
+                </h2>
+                <div class="foot_p">
+                    <p>
+                        174 Mimosa ST.NW
+                    </p>
+                    <p>
+                        Casablanca, MA 20370
+                    </p>
+                    <p>
+                        (212) 123 456 7
+                    </p>
+                    <p>
+                        Samir Timezguida
+                    </p>
+                </div>
+                <a href="#"><i class="fafa-twitter"></i></a>
+                <a href="#">
+                    <i class="fafa-facebook">
+                                        </i>
+                </a>
+                <a href="#">
+                    <i class="fafa-linkedin">
+                                        </i>
+                </a>
+                <a href="#">
+                    <i class="fafa-vimeo">
+                                        </i>
+                </a>
+                <a href="#">
+                    <i class="fafa-behance">
+                                        </i>
+                </a>
+            </div>
+            <div class="right">
+                <div class="right_box">
+                    <form>
+                        <input type="text" name="Name" placeholder="Name">
+                        <input type="email" name="Email" placeholder="Email">
+                        <textarea placeholder="Message">
+</textarea>
+                        <a href="#">
+                            Send
+                            </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <a href="#">
+                <img src="images/logo.png" alt="" />
+            </a>
+            <p>
+                2014©
+                <span>
+                    Samir
+                    Timezguida.
+                    </span> All Rights Reserved.
+            </p>
+            <p>
+                Free Template by
+                <span>
+                            FreeTemplates.pro
+                            </span>
+            </p>
+        </div>
+    </footer>
 </body>
+
 
 </html>

@@ -1,0 +1,87 @@
+@charset "utf-8";
+.white,
+.white_ber,
+.white_box,
+.p_white {
+    color: white;
+    text-align: center;
+}
+
+.white_ber {
+    background-color: white;
+    width: 100px;
+}
+
+.orangeline {
+    background-color: orange;
+    width: 150px;
+}
+
+.black,
+.black_ber,
+.black_box,
+.p_black {
+    color: black;
+    text-align: center;
+}
+
+.our_img,
+.us_p,
+.black_box_us,
+.why_img,
+.h_black,
+.black_p {
+    text-align: center;
+}
+
+.boxs,
+.icon_box {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*----- ヘッダー -----*/
+
+#head {
+    background-image: url(../images/banner.jpg);
+}
+
+
+/*----- メインコンテンツ -----*/
+
+.INTRODUCTION {
+    opacity: 0;
+}
+
+.pure {
+    background-image: url(../images/lepy.jpg);
+}
+
+.box li {
+    list-style: none;
+}
+
+.here {
+    background-image: url(../images/helo.jpg);
+}
+
+.our {
+    background-color: whitesmoke;
+}
+
+.video {
+    background-image: url(../images/video.jpg);
+}
+
+.get {
+    background-image: url(../images/quotes.jpg);
+}
+
+.foot span {
+    color: orange;
+}
+
+.foot p {
+    color: white;
+}

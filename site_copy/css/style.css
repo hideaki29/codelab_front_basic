@@ -1,0 +1,301 @@
+@charset "utf-8";
+@media screen and (min-width:377px) {
+    body {
+        max-width: 1500px;
+    }
+    #menu {
+        margin: 20px;
+        position: fixed;
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    #menu div {
+        position: absolute;
+        left: 0;
+        height: 4px;
+        width: 34px;
+        background-color: #ff5e05;
+        border-radius: 2px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    #menu div:nth-of-type(1) {
+        top: 0;
+    }
+    #menu div:nth-of-type(2) {
+        top: 10px;
+    }
+    #menu div:nth-of-type(3) {
+        bottom: 0;
+    }
+    h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .white {
+        font-size: 50px;
+    }
+    .white_ber {
+        width: 100px;
+        color: white;
+    }
+    .p_white {
+        font-size: 20px;
+    }
+    .black {
+        font-size: 30px;
+    }
+    .black_ber {
+        width: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .p_black {
+        font-size: 20px;
+    }
+    .p_line2 {
+        letter-spacing: 1px;
+    }
+    .white_box {
+        max-width: 500px;
+        font-size: 30px;
+        border: 2px solid white;
+        box-sizing: content-box;
+        padding: 15px 80px;
+        text-decoration: none;
+    }
+    .black_box {
+        font-size: 30px;
+        border: 2px solid black;
+        box-sizing: content-box;
+        padding: 15px 80px;
+        text-decoration: none;
+    }
+    .black_p {
+        font-size: 12px;
+    }
+    /*---- hover ----*/
+    .img_mobile {
+        visibility: hidden;
+        position: relative;
+        top: -300px;
+        /* left: 100px; */
+        text-align: center;
+        color: white;
+    }
+    .img_mobile p {
+        font-size: 20px;
+    }
+    .ALL:hover {
+        background-color: black;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        opacity: 0.5;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+    .ALL:hover .img_box {
+        opacity: 0.6;
+    }
+    .img_block:hover .img_mobile {
+        visibility: visible;
+        color: white;
+    }
+    .img_block:hover .img_mobile .orangeline {
+        color: orange;
+        width: 100px;
+        height: 2px;
+    }
+    /* ------ ヘッダー ------*/
+    #head {
+        max-width: 1500px;
+        max-height: 1000px;
+        padding-top: 250px;
+    }
+    .head img {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* ---- メインセクション -----*/
+    .INTRODUCTION,
+    .ABOUT,
+    .why,
+    .TOUCH,
+    .our {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .show {
+        padding-bottom: 100px;
+    }
+    .pure {
+        padding-top: 200px;
+        display: block;
+        height: 250px;
+    }
+    .backimg_boxs {
+        display: flex;
+        justify-content: center;
+    }
+    .work h1 {
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+    #line {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .box {
+        display: flex;
+    }
+    .box li {
+        margin: 0 auto;
+    }
+    .img_work {
+        max-width: 1500px;
+    }
+    .img_box {
+        margin: 10px;
+    }
+    .images_box {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img_block {
+        width: auto;
+        height: auto;
+        margin-bottom: -100px;
+    }
+    .here {
+        padding-top: 200px;
+        display: block;
+        height: 250px;
+    }
+    .our_img img {
+        margin: 10px;
+    }
+    .our hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .US {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .us_img {
+        margin: 20px;
+    }
+    .us_box {
+        border: 2px solid black;
+        margin: 20px;
+        width: 266px;
+        height: 356px;
+    }
+    .us_p {
+        margin-top: 75px;
+        font-size: 30px;
+    }
+    .black_box_us {
+        font-size: 20px;
+        margin: 20px 40px;
+        border: 2px solid black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .video_img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    .img_why {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .h_black {
+        font-size: 20px;
+    }
+    .get {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    /*---- footer ----*/
+    .cont {
+        display: flex;
+        width: 100%;
+    }
+    .left {
+        width: 25%;
+        background-color: #f2f2f2;
+        padding-left: 10%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .right {
+        width: 65%;
+        background-color: #e4e4e4;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .right_box {
+        display: flex;
+        margin-left: 20%;
+    }
+    .right input {
+        width: 35%;
+        font-size: 20px;
+        border: 0;
+        border-bottom: 2px solid #afafaf;
+        background: none;
+        outline: 0;
+        padding: 5px 20px;
+    }
+    textarea {
+        display: flex;
+        width: 90%;
+        font-size: 20px;
+        border: 0;
+        border-bottom: 2px solid #afafaf;
+        background: none;
+        outline: 0;
+        margin-top: 75px;
+        padding: 5px 25px;
+    }
+    .right textarea:focus {
+        border-bottom: 0px solid #ff5e05;
+        outline: none;
+        box-shadow: -6px 10px 0px -7px #ff5e05;
+    }
+    .right input[type="text"] {
+        float: none;
+        margin-right: 13%;
+    }
+    .right_box a {
+        display: inline-block;
+        max-width: 175px;
+        border: 3px solid #222222;
+        text-align: center;
+        font-size: 24px;
+        color: #222222;
+        width: 100%;
+        font-family: 'amblebold';
+        padding: 10px 0;
+        margin-left: 65%;
+        margin-top: 50px;
+    }
+    .foot {
+        background-color: black;
+        text-align: center;
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+}
