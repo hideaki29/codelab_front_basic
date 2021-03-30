@@ -1,0 +1,59 @@
+@charset "utf-8";
+.animation {
+  margin: 50px;
+}
+
+.anime_01 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: blue;
+  animation-name: anime_01;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime_01 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.anime_02 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: green;
+}
+
+.anime_02:hover {
+  width: 500px;
+  transition-property: (.anime_02);
+  transition-duration: 3s;
+  transition-timing-function: ease;
+}
+
+.anime_03 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: orange;
+}
+
+.anime_03:hover {
+  animation: anime_03 4s;
+}
+
+@keyframes anime_03{
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(300px);
+  }
+}
+
